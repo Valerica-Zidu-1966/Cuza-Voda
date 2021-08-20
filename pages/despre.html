@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CUZA -VODA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="../images/cuza.jpg" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><i class="fas fa-city logo"></i>
+           <mark> satul Alexandru Ioan Cuza,r.Cahul</mark> 
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Acasă <i class="fab fa-diaspora logo"></i></a>
+            <a href="despre.html">Despre noi <i class="fab fa-phoenix-framework logo"></i></a>
+            <a href="instituții.html">Instituții <i class="fas fa-book-reader logo"></i></a>
+            <a href="evenimente.html">Evenimente <i class="fas fa-calendar-alt logo"></i> </a>
+            <a href="contacte.html">Contacte <i class="fas fa-phone-volume logo"></i> </a><br>
+            <img src="../images/18.PNG"> <br>
+            <img src="../images/1.PNG">
+        </aside>
+
+        <main>
+            <h1>Despre noi</h1>
+
+            <div class="col-50">
+                <h2 align=" center"> Aici activiază diferite instituții</h2>
+                </hr>
+                <h4>
+                    <ol>Educaţionale:
+                </h4>
+                <ol>
+                    <li>IP Liceul Teoretic "Alexei Mateevici":
+                    <li>Grădinița"Andreeș"
+                    <li>Grădinița "Scufița Roșie"
+                </ol>
+                <h4>
+                    <ol>Instituții sociale:
+                </h4>
+                <ul>
+                    <li>Primăria A.I.Cuza
+                    <li>Casa de cultură
+                    <li>Biblioteca Publică
+                    <li>Oficiul Medicilor de Familie
+                    <li>Oficiul poștal
+                    <li> Azilul de bătrâni
+                    <li>Biserica "Sfântul Nicolae"
+                </ul>
+                <h4>
+                    <ol>Agenți economici:
+                </h4>
+                <ul type="disc">
+                    <li>Magazine Alimentare-6
+                    <li> Magazin de construcție
+                    <li> Magazin de fructe și legume
+                </ul>
+                </ol>
+            </div>
+            <div class="col-50">
+                <h4> Dacâ drești să cooperezi
+                    competează acest formular
+                </h4>
+                <form autocomplete="off">
+                    <label for="idnp"> IDNP*: </label>
+                    <input type="text" id="idnp" placeholder="Introdu nume" size="15" pattern="[0-9]{13}" minlength="13"
+                        maxlength="13" required />
+
+                    <br /><br />
+                    <label for="email"> Email*: </label>
+                    <input type="email" id="email" placeholder="ex@gmail.com" />
+
+                    <br /><br />
+                    <label for="parola"> Parola* </label>
+                    <input type="password" id="parola" />
+
+                    <br /><br />
+                    <label for="data-nașterii"> Data-nașterii </label>
+                    <input type="date" id="data-nașterii" />
+
+                    <br /> <br />
+                    <label for="masculin"> M </label>
+                    <input type="radio" id="masculin" name="gen" />
+
+                    <label for="femeni"> F </label>
+                    <input type="radio" id="femenin" name="gen" checked />
+
+                    <br /> <br />
+                    <label for="descrierea"> Descrieți-vă </label>
+                    <textarea id="descriere" rows="3" cols="30"></textarea>
+
+                    <br /><br />
+                    <label for="imagine"> Incarca o poza</label>
+                    <br />
+                    <input type="file" accept="imagine/*" id="imagine" />
+
+                    <br /><br />
+                    <label for="reguli"> Voi respecta regulile</label>
+                    <input type="checkbox" id="reguli" required />
+
+                    <br /> <br />
+                    <input type="submit" value="Confirmă" />
+
+
+                </form>
+            </div>
+
+            <div class="centered">
+                <div class="container groupboxheader">Contacte,Telefoane a celor mai importante instituții
+                    sociale
+                    <table border="2" align="center" cellpadding="5" cellspacing="3">
+                        <tr>
+                            <th>Nr.Ord.</th>
+                            <th>Contact</th>
+                            <th>Telefon</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Primaria</td>
+                            <td>0-299-53-238</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Liceul</td>
+                            <td>0-299-53-293</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Grădinița N1</td>
+                            <td>0-299-53-344</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Grădinița N2</td>
+                            <td>0-299-53-348</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>OMF</td>
+                            <td>0-299-53-233</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="container">
+
+                    <div class="gallery">
+                        
+                        <a target="_blank" href="../images/35.jpg">
+                            <img src="../images/35.jpg">
+                        </a>
+                        <a target="_blank" href="../images/7.jpg">
+                            <img src="../images/7.jpg">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="centered footer-info">
+            <marquee behavior="alternate" bgcolor="#021d04" direction="right">Dacă cineva n-ai greșit niciodată,
+                înseamnă că n-ai încercat să facă nimic nou.
+            </marquee>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

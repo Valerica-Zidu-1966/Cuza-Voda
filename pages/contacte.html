@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/cuza.jpg" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>CUZA -VODA</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><i class="fas fa-city logo"></i>
+            <mark> satul Alexandru Ioan Cuza,r.Cahul</mark> 
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Acasă <i class="fab fa-diaspora logo"></i></a>
+            <a href="despre.html">Despre noi <i class="fab fa-phoenix-framework logo"></i></a>
+            <a href="instituții.html">Instituții <i class="fas fa-book-reader logo"></i></a>
+            <a href="evenimente.html">Evenimente <i class="fas fa-calendar-alt logo"></i> </a>
+            <a href="contacte.html">Contacte <i class="fas fa-phone-volume logo"></i> </a> <br>
+            <img src="../images/18.PNG"> <br>
+            <img src="../images/1.PNG">
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+            
+            <div class="row">
+                <div class="col-33 ">
+                    <h3>Contactează-ne dacă:</h3>
+                    <ul class="contact-list ">
+                        <li>Dorești să adaugi un eveniment</li>
+                        <li>Cauți un loc de voluntariat</li>
+                        <li>Dorești să găseți un cerc </li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+
+                <div class="col-33 ">
+                    <h3>Date de contact:</h3>
+                    <ul class="contact-date ">
+                        <li><b> Adresa:</b> str.Stefan cel Mare 234</li>
+                        <li><b>Telefon:</b> 0 299 53 238</li>
+                        <li><b>Ore de lucru:</b> 08:30 - 17:00</li>
+                    </ul>
+                </div>
+
+                <div class="col-33 ">
+                    <div class="gallery">
+                        <a target="_blank" href="../images/M1.jpg">
+                            <img src="../images/M1.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44666.20323410861!2d28.414806888957106!3d45.59782745016352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b706981a26ac7d%3A0x7ab00f8c2b44a976!2sAlexandru%20Ioan%20Cuza%2C%20Moldova!5e0!3m2!1sro!2s!4v1627648877770!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume " required />
+                            <input type="text" id="prenume" placeholder="Prenume" required />
+                            <input type="email" id="email" placeholder="Email" required />
+                            <textarea id="mesaj" rows="2" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite" onclick="sendEmail()" />
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+    </div>
+    </div>
+
+   
+    </main>
+
+    <footer>
+        <div class="centered footer-info">
+            <marquee behavior="alternate" bgcolor="#021d04" direction="right">Primaria Alexandru Ioan Cuza 2021
+            </marquee>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
